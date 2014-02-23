@@ -20,15 +20,22 @@ We want to auto-retweet any tweet that mentiones the account - @CodeTerminal. Th
    
 Replace "https://twitter.com/search" with "https://api.twitter.com/1.1/search/tweets.json" and you will get -           https://api.twitter.com/1.1/search/tweets.json?q=%40CodeTerminal
 
-To use the RSS Feed option : 
+2. Twitter Account:
+You can either use an existing Twitter account or create a new one for your Bot.
+
+3. Feedburner:
+To use the RSS Feed option: 
 Go to http://www.queryfeed.net/ and Search Twitter for @CodeTerminal. 
 Copy the URL, should look like this - http://www.queryfeed.net/twitter?q=%40CodeTerminal&geocode= and paste it at http://feedburner.google.com/ and Burn the Feed.
 Feed Title : Twitter feed for '@CodeTerminal' query
 Feed Address : http://feeds.feedburner.com/TwitterFeedForcodeterminalQuery
-   
 
-2. Twitter Account:
-   You can either use an existing Twitter account or create a new one for your Bot.
+4. Working with Yahoo! Pipes:
+Yahoo! Pipes does the most of our work. We will run our new Feedburner feed through a series of filters to eliminate potential spam, remove any replies, and then add “RT @”+username to the front of the tweet so as to retweet the information.
+*Go to Yahoo! Pipes and Create a New Pipe.
 
-3. Feedburner:
 
+*Get as RSS should be something like this - http://pipes.yahoo.com/pipes/pipe.run?_id=d26d81fede2c489568663bba1cecd7d2&_render=rss
+
+5. TwitterFeed:
+*Go to http://twitterfeed.com/ ,Create a new account and login.
