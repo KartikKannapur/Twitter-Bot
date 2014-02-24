@@ -2,7 +2,7 @@ Twitter-Bot
 ===========
 
 Twitter bots are computer programs that watch every public tweet on Twitter. When a bot finds a tweet with a certain keyword or addressed to a Twitter account, it either sends a pre-written response, re-tweets or it follows the Twitter account.
-In my case I have created a Bot @CodeTerminal
+In my case I have created a Bot @CodeTerminal - https://twitter.com/CodeTerminal
 
 Resources 
 =========
@@ -41,4 +41,4 @@ Get as RSS should be something like this - http://pipes.yahoo.com/pipes/pipe.run
 Go to http://twitterfeed.com/ ,Create a new account and login.
 Get the RSS feed from Yahoo Pipes and authorize the application
 
-DONE!
+================================================================
