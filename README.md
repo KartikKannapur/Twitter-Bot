@@ -7,6 +7,7 @@ In my case I have created a Bot @CodeTerminal
 Resources 
 =========
 The Websites / Services we will use:
+
 1. Feedburner - http://feedburner.google.com.  If we use Yahoo Pipes directly with a Twitter search, it will access the Twitter servers too frequently which will result in errors and timeouts.  Feedburner only updates a feed either every 30 minutes or when notified with a ping. This means that we can be kinder to Twitter’s servers and will have more consistent data.  
 
 2. Yahoo Pipes - http://pipes.yahoo.com.   We use Yahoo Pipes to clean up the results we get back from Twitter.
