@@ -33,9 +33,13 @@ Feed Address : http://feeds.feedburner.com/TwitterFeedForcodeterminalQuery
 4. Working with Yahoo! Pipes:
 Yahoo! Pipes does the most of our work. We will run our new Feedburner feed through a series of filters to eliminate potential spam, remove any replies, and then add “RT @”+username to the front of the tweet so as to retweet the information.
 *Go to Yahoo! Pipes and Create a New Pipe.
-
-
+*Fetch the feed and filter your content.
+*Loop through each item in the Twitter Feed and Retweet.
+*Save and Run the pipe via Yahoo pipes.
 *Get as RSS should be something like this - http://pipes.yahoo.com/pipes/pipe.run?_id=d26d81fede2c489568663bba1cecd7d2&_render=rss
 
 5. TwitterFeed:
 *Go to http://twitterfeed.com/ ,Create a new account and login.
+*Get the RSS feed from Yahoo Pipes and authorize the application
+
+DONE!
