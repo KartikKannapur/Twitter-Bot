@@ -16,9 +16,7 @@ The Websites / Services we will use:
 Setup 
 =========
 1. Source:
-We want to auto-retweet any tweet that mentiones the account - @CodeTerminal. The Twitter Search API is part of Twitter's v1.1 REST API. Search for the account @CodeTerminal in the Twitter Search Bar, the URL loaded will be something like this - https://twitter.com/search?q=%40CodeTerminal.
-   
-Replace "https://twitter.com/search" with "https://api.twitter.com/1.1/search/tweets.json" and you will get -           https://api.twitter.com/1.1/search/tweets.json?q=%40CodeTerminal
+We want to auto-retweet any tweet that mentiones the account - @CodeTerminal. The Twitter Search API is part of Twitter's v1.1 REST API. Search for the account @CodeTerminal in the Twitter Search Bar, the URL loaded will be something like this - https://twitter.com/search?q=%40CodeTerminal.Replace "https://twitter.com/search" with "https://api.twitter.com/1.1/search/tweets.json" and you will get -           https://api.twitter.com/1.1/search/tweets.json?q=%40CodeTerminal
 
 2. Twitter Account:
 You can either use an existing Twitter account or create a new one for your Bot.
@@ -32,14 +30,14 @@ Feed Address : http://feeds.feedburner.com/TwitterFeedForcodeterminalQuery
 
 4. Working with Yahoo! Pipes:
 Yahoo! Pipes does the most of our work. We will run our new Feedburner feed through a series of filters to eliminate potential spam, remove any replies, and then add “RT @”+username to the front of the tweet so as to retweet the information.
-*Go to Yahoo! Pipes and Create a New Pipe.
-*Fetch the feed and filter your content.
-*Loop through each item in the Twitter Feed and Retweet.
-*Save and Run the pipe via Yahoo pipes.
-*Get as RSS should be something like this - http://pipes.yahoo.com/pipes/pipe.run?_id=d26d81fede2c489568663bba1cecd7d2&_render=rss
+Go to Yahoo! Pipes and Create a New Pipe.
+Fetch the feed and filter your content.
+Loop through each item in the Twitter Feed and Retweet.
+Save and Run the pipe via Yahoo pipes.
+Get as RSS should be something like this - http://pipes.yahoo.com/pipes/pipe.run?_id=d26d81fede2c489568663bba1cecd7d2&_render=rss
 
 5. TwitterFeed:
-*Go to http://twitterfeed.com/ ,Create a new account and login.
-*Get the RSS feed from Yahoo Pipes and authorize the application
+Go to http://twitterfeed.com/ ,Create a new account and login.
+Get the RSS feed from Yahoo Pipes and authorize the application
 
 DONE!
